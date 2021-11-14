@@ -15,17 +15,18 @@
 			}
 table, th, td {
   border: 5px solid white;
+
+[class*="col-"]{
+	width: 100%;
 }
 
- .bd-placeholder-img {
-        font-size: 1.125rem;
-        text-anchor: middle;
-        -webkit-user-select: none;
-        -moz-user-select: none;
-        user-select: none;
-      }
+      @media only screen and (min-width: 300px) {
+        body{
+        	width: 20%;
+        }
+        }
 
-      @media screen and (max-width: 768px) {
+         @media only screen and (min-width: 768px) {
         body{
         	width: 100%;
         }
