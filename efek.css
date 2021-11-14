@@ -75,7 +75,7 @@
   margin-bottom: 0px;
 }
 
- @media screen (min-width: 400px) {
+ @media only screen and (max-width: 500px) {
      .col,.col-md-4,.row,.container-fluid,.{
         width: 100%
       }
@@ -86,7 +86,7 @@
         }
         }
 
-   @media screen (min-width: 1000px) {
+   @media only screen and (min-width: 1000px) {
        
          .inside{
           margin-left:100px;
